@@ -1,6 +1,7 @@
 // import React from 'react';
 import { Hello, HelloWithProps } from './components/Hello';
 import Students from './components/Students';
+import Counter from './components/Counter'; // Import the Counter component
 
 function App() {
   return (
@@ -20,6 +21,10 @@ function App() {
       <hr />
       <h1>Student Grades</h1>
       <Students />
+      <hr />
+      <h1>Counter</h1>
+      <Counter />
+      {/* Insert the Counter component here */}
     </div>
   );
 }
